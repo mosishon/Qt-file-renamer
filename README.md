@@ -1,10 +1,10 @@
 # Qt-file-renamer
 ## what is this ?
 A program that changes the name of folders (written for a specific purpose)
-##   Installing requirements
+##   Install requirements
 >`pip install requirements.txt`
 ##   Building from source
-### Installing nuitka
+### Install nuitka
 #### from Pypi
 >`pip install -U nuitka`
 > Recommended
