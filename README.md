@@ -10,7 +10,7 @@ A program that changes the name of folders (written for a specific purpose)
 > Recommended
 #### from source
 >`pip install -U "https://github.com/Nuitka/Nuitka/archive/develop.zip"`
-### 2. building executable file
+### 2. build executable file
 >`python -m nuitka --follow-imports --windows-disable-console main.py`
 
 # View
