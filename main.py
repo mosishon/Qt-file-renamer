@@ -60,7 +60,7 @@ class UiMainWindow(QWidget, CustomQST):
         self.enter_path_label.setFont(QFont("Times", 12))
         self.menu_bar = QMenuBar()
 
-        self.path_input.setPlaceholderText(r"C:\Users\Erfan\Desktop\Projects")
+        self.path_input.setPlaceholderText(r"C:\Users\Mostafa\Desktop\Projects")
         self.path_input.setFont(QFont("Times", 11))
         self.path_input.textChanged.connect(self.handle_open_change)
 
@@ -108,7 +108,7 @@ class UiMainWindow(QWidget, CustomQST):
         self.setLayout(self.gridLayout)
 
         self.setGeometry(300, 300, 300, 150)
-        self.setWindowTitle('Erfan Folder Renamer')
+        self.setWindowTitle('Folder Renamer')
         self.show()
 
     def init_window_size(self) -> None:
