@@ -2,3 +2,4 @@
 *.ui
 *.build/
 *.dll
+*.exe
