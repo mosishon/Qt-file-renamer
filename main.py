@@ -85,7 +85,7 @@ class UiMainWindow(QWidget, CustomQST):
 
         self.regex_input.setFont(QFont("Times", 11))
         self.regex_input.setPlaceholderText(r"(\d*)")
-        self.regex_input.textChanged.connect(self.apply_regex_buttonEnabeldHandel)
+        self.regex_input.textChanged.connect(self.regex_change_handel)
         self.apply_regex_button = QPushButton("Apply")
         self.apply_regex_button.setFixedSize(100, 60)
         self.apply_regex_button.clicked.connect(self.apply_regex)
