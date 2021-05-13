@@ -1,2 +1,4 @@
 .idea
 *.ui
+*.build/
+*.dll
