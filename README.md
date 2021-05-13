@@ -3,7 +3,7 @@
 A program that changes the name of folders (written for a specific purpose)
 ##   Install requirements
 >`pip install requirements.txt`
-##   Building from source
+##   Build from source
 ### Install nuitka
 #### from Pypi
 >`pip install -U nuitka`
